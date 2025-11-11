@@ -126,7 +126,7 @@
             <mxPoint x="350" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Q--clGqZ60WlrqJL2N94-141" value="VPC" style="swimlane;strokeWidth=1;dashed=1;dashPattern=8 8;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#660000;" vertex="1" parent="1">
+        <mxCell id="Q--clGqZ60WlrqJL2N94-141" value="VPC (Private Subnets + VPC Endpoints)" style="swimlane;strokeWidth=1;dashed=1;dashPattern=8 8;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#660000;" vertex="1" parent="1">
           <mxGeometry x="130" y="10" width="800" height="560" as="geometry" />
         </mxCell>
         <mxCell id="Q--clGqZ60WlrqJL2N94-69" value="s3://lake/bronze/&lt;br&gt;Iceberg: bronze.*" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" vertex="1" parent="Q--clGqZ60WlrqJL2N94-141">
