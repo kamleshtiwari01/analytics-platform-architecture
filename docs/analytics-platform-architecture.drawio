@@ -23,16 +23,16 @@
           <mxGeometry x="730" y="215" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Q--clGqZ60WlrqJL2N94-14" value="Customers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="60" y="320" width="70" height="40" as="geometry" />
+          <mxGeometry x="59.58" y="325" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Q--clGqZ60WlrqJL2N94-19" value="Settlements" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="60" y="260" width="69.58" height="40" as="geometry" />
+          <mxGeometry x="60.84" y="260" width="69.58" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Q--clGqZ60WlrqJL2N94-20" value="Bets events" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="Q--clGqZ60WlrqJL2N94-20" value="Bet events" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="60" y="200" width="70.42" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Q--clGqZ60WlrqJL2N94-33" value="Data Catalog &amp;amp; Schema Registry, Steps Function, Lake Formation" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="100" width="680" height="30" as="geometry" />
+        <mxCell id="Q--clGqZ60WlrqJL2N94-33" value="Data Catalog &amp;amp; Schema Registry, Step Functions, Lake Formation" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="110" width="680" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Q--clGqZ60WlrqJL2N94-1" value="Landing" style="dashed=1;verticalAlign=top;fontStyle=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="240" width="110" height="200" as="geometry" />
@@ -59,7 +59,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Q--clGqZ60WlrqJL2N94-64" value="s3://lake/landing/" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="190" y="315" width="50" height="50" as="geometry" />
+          <mxGeometry x="190" y="320" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Q--clGqZ60WlrqJL2N94-65" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Q--clGqZ60WlrqJL2N94-20">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -73,34 +73,37 @@
         <mxCell id="Q--clGqZ60WlrqJL2N94-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q--clGqZ60WlrqJL2N94-67" target="Q--clGqZ60WlrqJL2N94-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Q--clGqZ60WlrqJL2N94-67" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.emr;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="335" y="315" width="40" height="50" as="geometry" />
+        <mxCell id="Q--clGqZ60WlrqJL2N94-67" value="EMR Spark" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.emr;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="335" y="320" width="40" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Q--clGqZ60WlrqJL2N94-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q--clGqZ60WlrqJL2N94-69" target="Q--clGqZ60WlrqJL2N94-71">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Q--clGqZ60WlrqJL2N94-69" value="s3://lake/bronze/" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" vertex="1" parent="1">
+        <mxCell id="Q--clGqZ60WlrqJL2N94-69" value="s3://lake/bronze/&lt;br&gt;Iceberg: bronze.*" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="330" y="210" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Q--clGqZ60WlrqJL2N94-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q--clGqZ60WlrqJL2N94-71" target="Q--clGqZ60WlrqJL2N94-73">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Q--clGqZ60WlrqJL2N94-71" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.emr;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+        <mxCell id="Q--clGqZ60WlrqJL2N94-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q--clGqZ60WlrqJL2N94-71" target="Q--clGqZ60WlrqJL2N94-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q--clGqZ60WlrqJL2N94-71" value="EMR Spark" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.emr;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="495" y="210" width="40" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Q--clGqZ60WlrqJL2N94-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q--clGqZ60WlrqJL2N94-73" target="Q--clGqZ60WlrqJL2N94-76">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Q--clGqZ60WlrqJL2N94-73" value="s3://lake/silver/" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" vertex="1" parent="1">
+        <mxCell id="Q--clGqZ60WlrqJL2N94-73" value="s3://lake/silver/&lt;br&gt;Iceberg: silver.*&lt;br&gt;Dim/Facts" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="490" y="320" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Q--clGqZ60WlrqJL2N94-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q--clGqZ60WlrqJL2N94-76" target="Q--clGqZ60WlrqJL2N94-78">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Q--clGqZ60WlrqJL2N94-76" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.emr;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+        <mxCell id="Q--clGqZ60WlrqJL2N94-76" value="EMR Spark" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.emr;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="640" y="320" width="40" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Q--clGqZ60WlrqJL2N94-78" value="s3://lake/Gold/" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" vertex="1" parent="1">
+        <mxCell id="Q--clGqZ60WlrqJL2N94-78" value="s3://lake/Gold/&lt;div&gt;Iceberg: gold.*&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="635" y="210" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Q--clGqZ60WlrqJL2N94-81" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Q--clGqZ60WlrqJL2N94-78" target="Q--clGqZ60WlrqJL2N94-6">
@@ -114,6 +117,9 @@
         </mxCell>
         <mxCell id="Q--clGqZ60WlrqJL2N94-84" value="Reporting" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.vrealize_log_insight;" vertex="1" parent="1">
           <mxGeometry x="725" y="320" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Q--clGqZ60WlrqJL2N94-88" value="IAM roles/policies, Rest/In-Transit encryption, Secret Manager, Cloud Trail/watch" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="460" width="680" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
